@@ -58,7 +58,7 @@ String commport = "COM3";
 
 void setup() {
   // init screen
-  size(320,200);
+  size(1280,800);
   background(255);
   
   frameRate(50);
@@ -97,8 +97,7 @@ void doNote(int note, int len) {
   doLed(note);
   doSound(note);
   delay(len);
-  out.noSound();
-  
+  sine.setFreq(0); 
 }
 
 void doLed(int note) {
