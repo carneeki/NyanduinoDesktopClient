@@ -1,3 +1,6 @@
 please refer to https://github.com/carneeki/Nyanduino
 
-This project is merely a player for the Nyanduino.
+This project is merely a player for the Nyanduino. It is built using Processing.
+
+If you would like to use, you will need to also get + install:
+  http://www.superduper.org/processing/fullscreen_api/
